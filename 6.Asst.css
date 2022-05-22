@@ -1,0 +1,181 @@
+body {
+    width: 1269px;
+    height: 700px;
+    background-image: url(./desert.jpg);
+    background-size: 100%;
+  }
+
+.sahara {
+    font-size: 60px;
+    color: white;
+    position: relative;
+    top: 320px;
+    left: 250px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    left: 250px;
+    top: 350px;
+}
+
+p{
+    color: white;
+    width: 500px;
+    position: relative;
+    left: 250px;
+    top: 320px;
+}
+
+.grid{
+    width: 350px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+    position: relative;
+    bottom: 90px;
+    left: 850px; 
+}
+
+
+.box1 {
+    background-image: url(./pic-1\ \(1\).png);
+    background-size: 110%;
+}
+
+.box2 {
+    background-image: url(./pic-2\ \(1\).png);
+    background-size: 100%;
+}
+
+.box3 {
+    background-image: url(./pic-3\ \(1\).png);
+    background-size: 100%;
+}
+
+.box4 {
+    background-image: url(./pic-4\ \(1\).png);
+    background-size: 100%;
+}
+
+.box {
+    width: 15vw;
+    height: 35vh;
+    padding: 10px; 
+    border-radius: 20px; 
+    text-align: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    transition-duration: 0.50s;
+
+}
+
+.flex {
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 970px;
+    bottom: 720px;
+}
+.home {
+    color: white;
+    font-size: 14px;
+    word-spacing: 50px;   
+}
+.material-icons {
+    width: 25px;
+    height: 25px;
+    color: white;
+    background-color:rgb(245, 203, 203) ;
+    border-radius: 50px;
+}
+.logo {
+    position: relative;
+    left: 250px;
+    top: -450px;
+}
+ 
+@media (max-width:856px) {
+   
+    body {
+        background-image: url(./desert.jpg);
+        background-size: 100%;
+    }
+    .sahara {
+        font-size: 40px;
+        position: relative;
+        top: 70px;
+        left: 50px;
+    }
+    p{
+        color: white;
+        width: 550px;
+        position: relative;
+        left: 50px;
+        top: 90px;
+    }
+    button {
+        width: 100px;
+        height: 30px;
+        border: none;
+        border-radius: 30px;
+        position: relative;
+        left: 50px;
+        top: 100px;
+    }
+    .flex {
+        width: 500px;
+        height: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        left: 270px;
+        bottom: 700px;
+    }    
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 30px;
+        position: relative;
+        left: 250px;  
+    }
+
+    .box {
+        width: 60vw;
+        height: 40vh;
+        padding: 10px; 
+        border-radius: 20px; 
+        text-align: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        position: relative;
+        top: 200px;
+        right: 120px;  
+    }
+
+    .logo {
+       position: relative;
+       left: 50px;
+       top: -650px;
+    }
+    
+}
+
+ 
+
+
+
+   
